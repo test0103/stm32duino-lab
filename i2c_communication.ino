@@ -1,5 +1,5 @@
 #include <Wire_slave.h>
-#define SLAVE_ADDRESS 0x04
+#define SLAVE_ADDRESS 0x04 //i2c地址
 int data;
 void setup() {
 Serial.begin(9600); // start serial for output
